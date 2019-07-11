@@ -78,7 +78,7 @@ $(document).ready(function () {
         });
 
 
-        if (document.getElementById("work")) {
+        if (document.getElementById("projects")) {
             var $grid = $(".grid").isotope({
                 itemSelector: ".all",
                 percentPosition: true,
