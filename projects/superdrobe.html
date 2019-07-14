@@ -90,97 +90,143 @@
 <section class="portfolio_details_area section-gap">
     <div class="container">
         <div class="portfolio_details_inner">
-            <!--<div class="row">-->
-                <!--<div class="col-md-6">-->
-                    <!--&lt;!&ndash;<div class="left_img">&ndash;&gt;-->
-                        <!--&lt;!&ndash;<img class="img-fluid" src="../img/project-details-1.jpg" alt="">&ndash;&gt;-->
-                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                <!--</div>-->
-                <!--<div class="col-lg-6">-->
-                    <!--<div class="portfolio_right_text mt-30">-->
-                        <!--<h4>Lavendar ambient colorlib</h4>-->
-
-                        <!--<ul class="list">-->
-                            <!--<li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i-->
-                                    <!--class="fa fa-star"></i></li>-->
-                            <!--<li><span>Client</span>: colorlib</li>-->
-                            <!--<li><span>Website</span>: colorlib.com</li>-->
-                            <!--<li><span>Completed</span>: 17 Aug 2018</li>-->
-                        <!--</ul>-->
-                        <!--<ul class="list social_details">-->
-                            <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                            <!--<li><a href="#"><i class="fa fa-behance"></i></a></li>-->
-                            <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-
             <!--INTRO-->
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>During my second year at MIT, I took 6.08: Embedded Systems and at the end of the semester, was tasked with an open-ended final project that asked of us to develop a creative and complete Internet of Things system.
-                        <!--<br><br>-->
-                        Essentially, we were told to <b style="color: black">do something interesting and hard</b>.
-                        <!--<br><br>-->
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <p>As the final project for 6.08: Embedded Systems at MIT, we were was tasked with an open-ended final project that asked of us to develop a creative and complete Internet of Things system.
+                        <br><br>
+                        Essentially, we were told to <i>do something interesting and hard</i>.
+                        <br><br>
                         With three other teammates, four weeks, and a budget of $80, I helped build Superdrobe, a smart wardrobe mirror that helps make mornings and laundry days easier for busy people like myself and so many other students at MIT.
                         <br><br>
                     </p>
-                    <p>Superdrobe is a mirror-based smart device that: <br></p>
+                    <p><b style="color: #000;">Superdrobe is a mirror-based smart device that:</b> <br></p>
                     <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-lg-6">
                                 <p style="float: left;">
                                     <img style="height: 55px; width:55px;" src="../img/projects/superdrobe/closet.svg" alt="Superdrobe Wardrobe">
-                                    <p style="padding-left: 0.8em; overflow: hidden; vertical-align: center; ">keeps inventory of all items in user's wardrobe</p>
+                                    <p style="padding-left: 0.8em; overflow: hidden;  ">keeps inventory of all items in user's wardrobe</p>
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p style="float: left;">
+                                    <img style="height: 55px; width:55px;" src="../img/projects/superdrobe/clothes.svg" alt="Superdrobe Outfit Suggestions">
+                                <p style="padding-left: 0.8em; overflow: hidden;  ">suggests outfits based on occasion, weather, and user preferences</p>
                                 </p>
                             </div>
                         </div>
 
-
-                        <span style="margin-left: 2.0em;">• suggests outfits based on occasion, weather, and user preferences<br></span>
-                        <span style="margin-left: 2.0em;">• tracks number of dirty clothes and notifies user when to do laundry <br></span>
-                        <span style="margin-left: 2.0em;">• informs user of currently available laundry machines in their building</span>
-
-
-
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p style="float: left;">
+                                    <img style="height: 55px; width:55px;" src="../img/projects/superdrobe/dirty-shirt.svg" alt="Superdrobe Laundry Tracker">
+                                <p style="padding-left: 0.8em; overflow: hidden;  ">tracks number of dirty clothes and notifies user when to do laundry</p>
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p style="float: left;">
+                                    <img style="height: 55px; width:55px;" src="../img/projects/superdrobe/washing-machine.svg" alt="Superdrobe Laundry Machine Availability">
+                                <p style="padding-left: 0.8em; overflow: hidden;  ">informs user of currently available laundry machines in their building</p>
+                                </p>
+                            </div>
+                        </div>
                         <!--The motivation behind Superdrobe was to streamline the process of selecting outfits, remembering when to do laundry, and tracking items that are worn and not worn often.-->
-
+                    </div>
+                    <p><b style="color:black">Team: </b>Will Archer, John Lin, Gary Nguyen, Linh Nguyen
+                        <br><br>
+                        <b style="color:black">Skills:</b> Internet of Things, Project Management, Teamwork, UX Design
+                        <br>
+                        <b style="color:black">Programming: </b>C++, Python, SQL, HTML, CSS, Javascript</span></p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>A Personalized Experience</h3>
-                    <br>
-                    <h5>Wardrobe Tracker Website:</h5>
-                    <p>We chose to use a website interface for the user to input information about their wardrobe because of the limitations of using the ESP32 screen and sensors for inputting text. Because there would be a lot of items that’d need to be inputted to make the database representative of a person’s entire wardrobe, having a clean, easy-to-use web interface was the most efficient and feasible solution to this design challenge. 
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <h3 style="padding-top: 50px">A Personalized Experience</h3>
+
+                    <h5 style="padding-top: 10px">Wardrobe Tracker Website:</h5>
+                    <p>We use a clean, simple web interface for user input on wardrobe items and settings because of the limitations of the ESP32 screen and sensors for inputting large amounts of text. </p>
                     <div class="row">
                         <div class="col-lg-6">
-                            <!--TODO! add padding-->
-                            <img style="display:block; max-height: 210px;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-web.gif" alt="Superdrobe Website">
-                    <p style="text-align: center"><br>Users can add, delete, and update items from their wardrobe and input profile information through a friendly website UI</p>
-                </div>
+                            <img style="display:block; max-height: 130px;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-web.gif" alt="Superdrobe Website">
+                            <p style="font-size:11px; text-align: center; padding-top: 10px; padding-left: 30px; padding-right: 30px">Users can add, delete, and update items from their wardrobe and input profile information through a friendly website UI<br><br><br></p>
+                        </div>
 
-                <div class="col-lg-6">
-                    <img style="display:block; max-height: 210px;" class="img-fluid" src="../img/projects/superdrobe/superdrobe-settings.gif" alt="Superdrobe User Settings">
-                    <p style="text-align: center"><br>With user-defined settings, Superdrobe is able to suggest weather-appropriate outfits and display how many laundry machines are currently available in their building</p>
-                </div>
+                        <div class="col-lg-6">
+                            <img style="display:block;max-height: 130px;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-settings.gif" alt="Superdrobe Settings">
+                            <p style="font-size:11px; text-align: center; padding-top: 10px; padding-left: 30px; padding-right: 30px">With user-defined settings, Superdrobe suggests weather-appropriate outfits and displays current laundry machines availability</p>
+                        </div>
                     </div>
 
+                    <h5 style="padding-top: 10px">Smart Outfit Suggestions:</h5>
+                    <p>From user research, we discovered that people have varying preferences in how involved they wanted to be in picking out individual parts of their outfits. To address these needs, Superdrobe features two different options to help users select outfits. <br></p>
+                    <p><i>Make me an outfit</i> presents combinations of wardrobe pieces to make a complete outfit for users who don’t want to go step-by-step selecting each piece of their outfit.</p>
+                    <div class="row justify-content-lg-center">
+                        <div class="col-lg-8">
+                            <img style="display:block;" class="static center-img img-fluid" src="../img/projects/superdrobe/superdrobe-makeme-still.png" alt="Superdrobe Make Me An Outfit">
+                            <img style="display:block;" class="active center-img img-fluid" src="../img/projects/superdrobe/superdrobe-makeme.gif" alt="Superdrobe Make Me An Outfit">
+                        </div>
+                    </div>
 
-                        <br><br><br>
+                    <p><i>Help me make an outfit</i> filters and sorts wardrobe pieces based on the occasion, preference, and weather for users who want the autonomy to select each piecee themselves.</p>
+                    <div class="row justify-content-lg-center">
+                        <div class="col-lg-8">
+                            <img style="display:block;" class="static center-img img-fluid" src="../img/projects/superdrobe/superdrobe-helpme-still.png" alt="Superdrobe Help Me Me An Outfit">
+                            <img style="display:block;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-helpme.gif" alt="Superdrobe Help Me Make An Outfit">
+                        </div>
+                    </div>
 
+                    <h5 style="padding-top: 40px">Laundry Assistance:</h5>
+                    <p>
+                        When all items of a particular type (tops, bottoms, and/or outerwear) have run out of clean wears, Superdrobe notifies the user that a laundry day is in order.
+                        Laundry is tracked by comparing the max number of wears of each item set by users and its current number of wears based of previously selected suggested outfits.
                         <br><br>
-
+                        For busy students, information about washing and dryer machine availability for their building is provided in the “Check Laundry” screen. This information is collected through user input on their dorm building and webscraping the Laundry View site.
                     </p>
-
-                    <br><br>
-
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img style="display:block;padding-bottom: 30px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-Laundry1.png" alt="Superdrobe Laundry Reminder">
+                        </div>
+                        <div class="col-lg-6">
+                            <img style="display:block;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-Check2.png" alt="Superdrobe Check Laundry">
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <h3>Behind the Mirror</h3>
+
+                    <h5 style="padding-top: 10px">DIY Mirror:</h5>
+                    <p>To save on costs, we constructed the mirror using a shadow box, mirrored window film, and ESP32 LCD display.
+                        <br><br>
+                        For user input, we implemented a scrolling mechanism using three copper sensors on the side of the mirror. There is audio feedback so users know if their taps on the buttons were detected.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img style="display:block; max-height: 226px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-mirror.png" alt="Superdrobe Mirror">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <img style="display:block; max-height: 226px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-sensors.png" alt="Superdrobe Sensors">
+                        </div>
+                    </div>
+
+                    <h5 style="padding-top: 40px">Connecting It All Together:</h5>
+                    <p>
+                        As an IoT device, Superdrobe consists of many front-end and back-end components. Below is a block diagram of how all these parts work together.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img style="display:block; max-height: 500px;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-block.jpg" alt="Superdrobe Mirror">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
