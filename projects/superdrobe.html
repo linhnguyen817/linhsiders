@@ -53,12 +53,6 @@
                             <li><a href="espanol.html">español</a></li>
                         </ul>
                     </li>
-                    <!--<li class="menu-has-children"><a href="">Blog</a>-->
-                    <!--<ul>-->
-                    <!--<li><a href="blog-home.html">Blog Home</a></li>-->
-                    <!--<li><a href="blog-single.html">Blog Single</a></li>-->
-                    <!--</ul>-->
-                    <!--</li>-->
                 </ul>
             </nav>
         </div>
@@ -70,16 +64,9 @@
 <section class="banner-area relative">
     <div class="container">
         <div class="row d-flex align-items-center justify-content-center">
-            <div class="about-content col-lg-12">
-                <h1 class="text-white">
-                    Superdrobe: A Smart Wardrobe Mirror
-                </h1>
-                <p class="link-nav">
-						<span class="box">
-							<a href="index.html">Home </a>
-							<a href="projects.html">Projects</a>
-							<a href="projects/superdrobe.html">Superdrobe</a></p>
-                </span>
+            <div class="about-content col-lg-12" style="margin-bottom:40px;">
+
+                <img class="fadeIn" src="../img/projects/superdrobe/superdrobe-title.svg">
             </div>
         </div>
     </div>
@@ -93,7 +80,7 @@
             <!--INTRO-->
             <div class="row justify-content-md-center">
                 <div class="col-md-8">
-                    <p>As the final project for 6.08: Embedded Systems at MIT, we were was tasked with an open-ended final project that asked of us to develop a creative and complete Internet of Things system.
+                    <p>As the final project for 6.08: Embedded Systems at MIT, we were tasked to develop a creative and complete Internet of Things system.
                         <br><br>
                         Essentially, we were told to <i>do something interesting and hard</i>.
                         <br><br>
@@ -137,15 +124,39 @@
                         <br><br>
                         <b style="color:black">Skills:</b> Internet of Things, Project Management, Teamwork, UX Design
                         <br>
-                        <b style="color:black">Programming: </b>C++, Python, SQL, HTML, CSS, Javascript</span></p>
+                        <b style="color:black">Programming: </b>C++, Python, SQL, HTML, CSS, Javascript</span>
+                    </p>
+
+                    <!--DIRECTORY-->
+                    <p><b style="color:black">Directory:</b></p>
+                    <div class="flex">
+                        <div class="col-lg" style="padding:3px;">
+                            <a href="#a_personalized_experience">
+                                <img class="directory" style="display:inline-block;max-width:100%;" src="../img/projects/superdrobe/Superdrobe-Dir1.svg">
+                            </a>
+                        </div>
+
+                        <div class="col-lg" style="padding:3px;">
+                            <a href="#behind_the_mirror">
+                                <img class ="directory" style="display:inline-block;max-width:100%;" src="../img/projects/superdrobe/Superdrobe-Dir2.svg">
+                            </a>
+                        </div>
+                        <div class="col-lg" style="padding:3px;">
+                            <a href="#takeaways">
+                                <img class ="directory" style="display:inline-block;max-width:100%;" src="../img/projects/superdrobe/Superdrobe-Dir3.svg">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!--SECTION 1-->
+            <a id="a_personalized_experience">
             <div class="row justify-content-md-center">
                 <div class="col-md-8">
                     <h3 style="padding-top: 50px">A Personalized Experience</h3>
 
-                    <h5 style="padding-top: 10px">Wardrobe Tracker Website:</h5>
+                    <h6 style="padding-top: 10px">Wardrobe Tracker Website:</h6>
                     <p>We use a clean, simple web interface for user input on wardrobe items and settings because of the limitations of the ESP32 screen and sensors for inputting large amounts of text. </p>
                     <div class="row">
                         <div class="col-lg-6">
@@ -155,11 +166,11 @@
 
                         <div class="col-lg-6">
                             <img style="display:block;max-height: 130px;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-settings.gif" alt="Superdrobe Settings">
-                            <p style="font-size:11px; text-align: center; padding-top: 10px; padding-left: 30px; padding-right: 30px">With user-defined settings, Superdrobe suggests weather-appropriate outfits and displays current laundry machines availability</p>
+                            <p style="font-size:11px; text-align: center; padding-top: 10px; padding-left: 30px; padding-right: 30px">With user-defined settings, Superdrobe suggests weather-appropriate outfits and displays current laundry machine availability</p>
                         </div>
                     </div>
 
-                    <h5 style="padding-top: 10px">Smart Outfit Suggestions:</h5>
+                    <h6 style="padding-top: 10px">Smart Outfit Suggestions:</h6>
                     <p>From user research, we discovered that people have varying preferences in how involved they wanted to be in picking out individual parts of their outfits. To address these needs, Superdrobe features two different options to help users select outfits. <br></p>
                     <p><i>Make me an outfit</i> presents combinations of wardrobe pieces to make a complete outfit for users who don’t want to go step-by-step selecting each piece of their outfit.</p>
                     <div class="row justify-content-lg-center">
@@ -169,7 +180,7 @@
                         </div>
                     </div>
 
-                    <p><i>Help me make an outfit</i> filters and sorts wardrobe pieces based on the occasion, preference, and weather for users who want the autonomy to select each piecee themselves.</p>
+                    <p><i>Help me make an outfit</i> filters and sorts wardrobe pieces based on the occasion, preference, and weather for users who want the autonomy to select each piece themselves.</p>
                     <div class="row justify-content-lg-center">
                         <div class="col-lg-8">
                             <img style="display:block;" class="static center-img img-fluid" src="../img/projects/superdrobe/superdrobe-helpme-still.png" alt="Superdrobe Help Me Me An Outfit">
@@ -177,7 +188,7 @@
                         </div>
                     </div>
 
-                    <h5 style="padding-top: 40px">Laundry Assistance:</h5>
+                    <h6 style="padding-top: 40px">Laundry Assistance:</h6>
                     <p>
                         When all items of a particular type (tops, bottoms, and/or outerwear) have run out of clean wears, Superdrobe notifies the user that a laundry day is in order.
                         Laundry is tracked by comparing the max number of wears of each item set by users and its current number of wears based of previously selected suggested outfits.
@@ -194,19 +205,22 @@
                     </div>
                 </div>
             </div>
+            </a>
 
+            <!--SECTION 2-->
+            <a id="behind_the_mirror">
             <div class="row justify-content-md-center">
                 <div class="col-md-8">
                     <h3>Behind the Mirror</h3>
 
-                    <h5 style="padding-top: 10px">DIY Mirror:</h5>
-                    <p>To save on costs, we constructed the mirror using a shadow box, mirrored window film, and ESP32 LCD display.
+                    <h6 style="padding-top: 10px">DIY Mirror:</h6>
+                    <p>The mirror prototype is built using a shadow box (that also houses our wires and breadboard very nicely), mirrored window film, and ESP32 LCD display.
                         <br><br>
                         For user input, we implemented a scrolling mechanism using three copper sensors on the side of the mirror. There is audio feedback so users know if their taps on the buttons were detected.
                     </p>
                     <div class="row">
                         <div class="col-lg-6">
-                            <img style="display:block; max-height: 226px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-mirror.png" alt="Superdrobe Mirror">
+                            <img style="display:block; max-height: 226px; padding-bottom: 30px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-mirror.png" alt="Superdrobe Mirror">
                         </div>
 
                         <div class="col-lg-6">
@@ -214,7 +228,7 @@
                         </div>
                     </div>
 
-                    <h5 style="padding-top: 40px">Connecting It All Together:</h5>
+                    <h6 style="padding-top: 40px">Connecting It All Together:</h6>
                     <p>
                         As an IoT device, Superdrobe consists of many front-end and back-end components. Below is a block diagram of how all these parts work together.
                     </p>
@@ -223,9 +237,39 @@
                             <img style="display:block; max-height: 500px;" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-block.jpg" alt="Superdrobe Mirror">
                         </div>
                     </div>
+
+                    <p>You can view the full video demo here!</p>
+                    <div class="video-responsive">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/FknkfWY8FsE" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
+            </a>
 
+        <!--SECTION 3-->
+        <a id="takeaways">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <h3>Takeaways</h3>
+
+                <h6 style="padding-top: 10px">Teamwork</h6>
+                <p>The mirror prototype is built using a shadow box (that also houses our wires and breadboard very nicely), mirrored window film, and ESP32 LCD display.
+                    <br><br>
+                    For user input, we implemented a scrolling mechanism using three copper sensors on the side of the mirror. There is audio feedback so users know if their taps on the buttons were detected.
+                </p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img style="display:block; max-height: 226px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-mirror.png" alt="Superdrobe Mirror">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img style="display:block; max-height: 226px" class="center-img img-fluid" src="../img/projects/superdrobe/superdrobe-sensors.png" alt="Superdrobe Sensors">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </a>
 
         </div>
     </div>

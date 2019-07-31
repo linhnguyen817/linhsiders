@@ -1036,7 +1036,8 @@ h2 {
 
 h3 {
   font-size: 24px;
-  color: #45dbee;}
+  color: #45dbee;
+  font-family: Raleway;}
 
 h4 {
   font-size: 18px; }
@@ -2114,7 +2115,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 600px !important; } }
 
 .banner-area {
-  background: #90acd1; }
+  background: #fff; }
 
 .banner-content {
   text-align: left; }
@@ -3408,4 +3409,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .static:hover {
   opacity:0;
+}
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:90%;
+  margin-left: 10%;
+  margin-right:10%;
+  width: 80%;
+  position:absolute;
+}
+
+.directory {
+  display:inline-block;
+  max-width:100%; }
+  @media (max-width: 500px) {
+    .directory {
+      max-width: 33%; }
+     }
+
+.flex {
+  display:flex;
+}
+.flex div {
+  flex:0.5;
+  margin:0px; /* need some space ?*/
 }
