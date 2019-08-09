@@ -1960,7 +1960,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 140px; }
 
 .nav-menu a {
-  padding: 0px;
+  padding: 20px;
   text-decoration: none;
   display: inline-block;
   color: #222222;
@@ -2109,7 +2109,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #45dbee; }
 
 .home-banner-area {
-  /*background: url(../img/banner-bg.jpg) center;*/
+  background: url("../img/banner.svg") center;
   background-size: cover; }
   @media (max-width: 769px) {
     .home-banner-area .fullscreen {
@@ -2217,13 +2217,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start About Area ------------*/
 .about-area .section-title {
+  margin-top: 80px;
   margin-bottom: 0; }
   @media (max-width: 1024px) {
     .about-area .section-title {
       padding-bottom: 0px; } }
-@media (max-width: 991px) {
-  .about-area .about-left {
-    display: none; } }
+/*@media (max-width: 991px) {*/
+  /*.about-area .about-left {*/
+    /*display: none; } }*/
 .about-area .primary-btn.white {
   margin-right: 10px; }
   @media (max-width: 1199px) {
@@ -2338,6 +2339,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f9f9ff; }
 
 .single-job {
+  color:#777777;
   background-color: #f9f9ff;
   padding: 40px 30px;
   border-radius: 10px;
@@ -2383,7 +2385,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-job:hover {
     background: #86def3;
     cursor: pointer;
-    color: #fff; }
+    color: #fff; !important }
     .single-job:hover .top-left h4 {
       color: #fff; }
 
@@ -3480,20 +3482,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 .superdrobeTitleLine2 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: drawLine 2.8s 0.3s linear infinite;
-  -moz-animation: drawLine 2.8s 0.3s linear infinite;
-  -ms-animation: drawLine 2.8s 0.3s linear infinite;
-  -o-animation: drawLine 2.8s 0.3s linear infinite;
-  animation: drawLine 2.8s 0.3s linear infinite;
+  -webkit-animation: drawLine 2.8s 0.9s linear infinite;
+  -moz-animation: drawLine 2.8s 0.9s linear infinite;
+  -ms-animation: drawLine 2.8s 0.9s linear infinite;
+  -o-animation: drawLine 2.8s 0.9s linear infinite;
+  animation: drawLine 2.8s 0.9s linear infinite;
 }
 .superdrobeTitleLine3 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: drawLine 2.8s 0.3s linear infinite;
-  -moz-animation: drawLine 2.8s 0.3s linear infinite;
-  -ms-animation: drawLine 2.8s 0.3s linear infinite;
-  -o-animation: drawLine 2.8s 0.3s linear infinite;
-  animation: drawLine 2.8s 0.3s linear infinite;
+  -webkit-animation: drawLine 2.8s 1.4s linear infinite;
+  -moz-animation: drawLine 2.8s 1.4s linear infinite;
+  -ms-animation: drawLine 2.8s 1.4s linear infinite;
+  -o-animation: drawLine 2.8s 1.4s linear infinite;
+  animation: drawLine 2.8s 1.4s linear infinite;
 }
 
 @keyframes drawLine {
