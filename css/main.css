@@ -2109,7 +2109,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #45dbee; }
 
 .home-banner-area {
-  background: url("../img/banner.svg") center;
+  /*background: url("../img/banner.svg") center;*/
   background-size: cover; }
   @media (max-width: 769px) {
     .home-banner-area .fullscreen {
@@ -2166,19 +2166,29 @@ body.mobile-nav-active #mobile-nav-toggle {
     .banner-content .designation .developer {
       color: #75d5e7; }
 
-.banner-img {
-  text-align: right;
-  position: relative;
-  left: 160px; }
-  @media (max-width: 1480px) {
-    .banner-img {
-      left: 0px; } }
-  @media (max-width: 991px) {
-    .banner-img {
+.banner-responsive-large {
+    background: no-repeat center;
+    background-size: cover;
+
+    padding-top: 150px;
+    /*padding-bottom: 150px;*/
+    position:absolute;
+}
+  @media (max-width: 675px) {
+    .banner-responsive-large {
       display: none; } }
-  @media (max-width: 1480px) {
-    .banner-img img {
-      max-width: 80%; } }
+
+.banner-responsive-small {
+    background: no-repeat center;
+    background-size: cover;
+
+    padding-top: 100px;
+    /*padding-bottom: 450px;*/
+    margin:auto;
+}
+    @media (min-width: 675px) {
+        .banner-responsive-small {
+            display: none; } }
 
 .brand-wrap {
   background: #fff;
@@ -3452,7 +3462,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .logo {
-  width:88px;
+  width:98px;
   height:auto;
 }
 
