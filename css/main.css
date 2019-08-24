@@ -2169,24 +2169,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-responsive-large {
     background: no-repeat center;
     background-size: cover;
-
-    padding-top: 150px;
-    /*padding-bottom: 150px;*/
-    position:absolute;
+    padding-top: 10%;
 }
-  @media (max-width: 675px) {
+  @media (max-width: 896px) {
+      .banner-responsive-large {
+        display: none; } }
+  @media (max-width: 1500px) and (min-width: 896px){
     .banner-responsive-large {
-      display: none; } }
+      padding-top: 8%; } }
 
 .banner-responsive-small {
     background: no-repeat center;
     background-size: cover;
 
-    padding-top: 100px;
-    /*padding-bottom: 450px;*/
+    padding-top: 10%;
     margin:auto;
 }
-    @media (min-width: 675px) {
+    @media (min-width: 896px) {
         .banner-responsive-small {
             display: none; } }
 
@@ -2252,6 +2251,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- End About Area ------------*/
 /*--------- Start Work Area -------------*/
 .work-area {
+  /*margin-top: 100px;*/
   background: #f9f9ff; }
   @media (max-width: 1024px) {
     .work-area .row.mb-80 {
