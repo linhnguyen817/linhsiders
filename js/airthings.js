@@ -38,51 +38,59 @@
 //     });
 // });
 
-$('#chart1').highcharts({
-    chart: {
-            type: 'column',
-            displayErrors: true
-        },
-    // series : [{
-    //     data: document.getElementById('co_levels_small').innerHTML
-    // }],
-    data: {
-        csv: document.getElementById('co_levels').innerHTML
-    },
-    title: {
-        text: '2017 CO Levels'
-    },
-    xAxis: {
-        type: 'datetime',
-        labels: {
-            format: '{value:%b %e, %Y}'
+$(function() {
+    window.chart = Highcharts.stockChart('chart1', {
+        data: {
+            csv: document.getElementById('co_levels').innerHTML
         }
-    },
-    yAxis: {
-        title: {
-            text: 'CO Level (ppm)'
-        }
-    }, rangeSelector: {
-        selected: 1,
-        inputDateFormat: '%Y-%m-%d'
-    }, function(chart) {
+    });
+});
 
-    // apply the date pickers
-    setTimeout(function() {
-        $('input.highcharts-range-selector', $('#' + chart.options.chart.renderTo)).datepicker()
-    }, 0)
-}});
+
+// var chart1 = Highcharts.stockChart('chart1', {
+//     // series : [{
+//     //     data: document.getElementById('co_levels_small').innerHTML
+//     // }],
+//     data: {
+//         csv: document.getElementById('co_levels').innerHTML
+//     },
+//     title: {
+//         text: '2017 CO Levels'
+//     },
+//     xAxis: {
+//         type: 'datetime',
+//         labels: {
+//             format: '{value:%b %e, %Y}'
+//         }
+//     },
+//     yAxis: {
+//         title: {
+//             text: 'CO Level (ppm)'
+//         }
+//     },
+//     rangeSelector: {
+//         selected: 1,
+//         inputDateFormat: '%Y-%m-%d'
+//     },
+    // function(chart) {
+    //
+    // // apply the date pickers
+    // setTimeout(function() {
+    //     $('input.highcharts-range-selector', $('#' + chart.options.chart.renderTo)).datepicker()
+    // }, 0)
+// }
+// });
 
 
 // Set the datepicker's date format
-$.datepicker.setDefaults({
-    dateFormat: 'yy-mm-dd',
-    onSelect: function(dateText) {
-        chart.xAxis[0].setExtremes($('input.highcharts-range-selector:eq(0)').datepicker("getDate").getTime(), $('input.highcharts-range-selector:eq(1)').datepicker("getDate").getTime());
-        //this.onchange();
-        this.onblur();
-    }
-});
+// $.datepicker.setDefaults({
+//     dateFormat: 'yy-mm-dd',
+//     onSelect: function(dateText) {
+//         chart.xAxis[0].setExtremes($('input.highcharts-range-selector:eq(0)').datepicker("getDate").getTime(), $('input.highcharts-range-selector:eq(1)').datepicker("getDate").getTime());
+//         //this.onchange();
+//         this.onblur();
+//     }
+// });
 
 // Highcharts.chart('chart1', {
 //     xAxis: {
