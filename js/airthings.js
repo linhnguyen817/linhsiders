@@ -38,11 +38,101 @@
 //     });
 // });
 
+var goodCOThreshold = 0.8;
+var okayCOThreshold = 1.0;
+var badCOThreshold = 1.2;
+
+Highcharts.setOptions({
+    chart: {
+        style: {
+            fontFamily: 'avenir'
+        }
+    }
+});
+
 $(function() {
     window.chart = Highcharts.stockChart('chart1', {
+        title: {
+            text: 'Carbon Monoxide (2017)',
+            align: 'left',
+            style : {
+                fontSize: '20px',
+            },
+        },
         data: {
-            csv: document.getElementById('co_levels').innerHTML
-        }
+            csv: document.getElementById('co_data').innerHTML,
+            se
+        },
+        xAxis: {
+            type: 'datetime',
+            labels: {
+                format: '{value:%m.%d}'
+            },
+            tickLength: 0,
+        },
+        yAxis: {
+            title: {
+                text: 'CO Level (ppm)'
+            },
+            plotLines: [{
+                value: goodCOThreshold,
+                color: 'gray',
+                dashStyle: 'shortdash',
+                width: 2,
+                // label: {
+                //     text: 'Last quarter minimum'
+                // }
+            }, {
+                value: okayCOThreshold,
+                color: 'gray',
+                dashStyle: 'shortdash',
+                width: 2,
+                // label: {
+                //     text: 'Last quarter maximum'
+                // }
+            }],
+            opposite:false, // moves y-axis label to left
+        },
+        rangeSelector: {
+            selected: 0,
+            inputDateFormat: '%m/%d/%Y',
+            allButtonsEnabled: true,
+            opposite: false,
+            buttonTheme: { // styles for the buttons
+                fill: 'none',
+                stroke: 'none',
+                'stroke-width': 0,
+                r: 13,
+                padding: 5,
+                style: {
+                    color: '#3b444b',
+                    fontWeight: 'bold',
+                    fontSize: '12px',
+                },
+                states: {
+                    hover: {
+                    },
+                    select: {
+                        fill: '#3b444b',
+                        style: {
+                            color: 'white'
+                        }
+                    }
+                    // disabled: { ... }
+                }
+            },
+        },
+        navigator: {
+            enabled: false // removes 'Zoom'
+        },
+        scrollbar: {
+            enabled: false
+        },
+        plotOptions: {
+            series: {
+                color: '#87D169'
+            }
+        },
     });
 });
 
@@ -72,12 +162,12 @@ $(function() {
 //         selected: 1,
 //         inputDateFormat: '%Y-%m-%d'
 //     },
-    // function(chart) {
-    //
-    // // apply the date pickers
-    // setTimeout(function() {
-    //     $('input.highcharts-range-selector', $('#' + chart.options.chart.renderTo)).datepicker()
-    // }, 0)
+//     function(chart) {
+//
+//     // apply the date pickers
+//     setTimeout(function() {
+//         $('input.highcharts-range-selector', $('#' + chart.options.chart.renderTo)).datepicker()
+//     }, 0)
 // }
 // });
 
