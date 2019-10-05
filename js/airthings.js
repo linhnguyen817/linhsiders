@@ -61,7 +61,6 @@ $(function() {
         },
         data: {
             csv: document.getElementById('co_data').innerHTML,
-            se
         },
         xAxis: {
             type: 'datetime',
@@ -75,21 +74,10 @@ $(function() {
                 text: 'CO Level (ppm)'
             },
             plotLines: [{
-                value: goodCOThreshold,
+                value: badCOThreshold,
                 color: 'gray',
                 dashStyle: 'shortdash',
-                width: 2,
-                // label: {
-                //     text: 'Last quarter minimum'
-                // }
-            }, {
-                value: okayCOThreshold,
-                color: 'gray',
-                dashStyle: 'shortdash',
-                width: 2,
-                // label: {
-                //     text: 'Last quarter maximum'
-                // }
+                width: 1.5,
             }],
             opposite:false, // moves y-axis label to left
         },
@@ -130,7 +118,9 @@ $(function() {
         },
         plotOptions: {
             series: {
-                color: '#87D169'
+                color: '#ec6641',
+                negativeColor: '#87D169',
+                threshold: badCOThreshold,
             }
         },
     });
