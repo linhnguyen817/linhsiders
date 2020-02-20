@@ -3707,15 +3707,15 @@ ul {
   background-size: 200% auto;
   background-image: linear-gradient(to right,#fff 50%, #555555 50%);;
   background-position: 0% 0;
-  animation-duration: 1.7s;
-  animation-delay: 2.6s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  /*animation-duration: 1.7s;*/
+  /*animation-delay: 2.6s;*/
+  /*animation-iteration-count: 1;*/
+  /*animation-fill-mode: forwards;*/
   padding-top: 2px;
 }
 
 .highlight.active {
-  animation-name: highlight;
+  animation: highlight 1.7s 2.6s forwards;
 }
 
 @keyframes highlight {
