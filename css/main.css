@@ -3629,3 +3629,73 @@ ul {
   }
 }
 
+.path1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1.1s 0.4s linear forwards;
+}
+
+.path2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1.1s 0.7s linear forwards;
+}
+
+.path3 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1.1s 1.4s linear forwards;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pathicon1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dashicon1 4s 0.4s linear infinite forwards;
+}
+
+.pathicon2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dashicon2 4s 0.7s linear infinite forwards;
+}
+
+.pathicon3 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dashicon3 4s 1.4s linear infinite forwards;
+}
+
+
+@keyframes dashicon1 {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  28%, 100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dashicon2 {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  33%, 100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dashicon3 {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  42%, 100% {
+    stroke-dashoffset: 0;
+  }
+}
