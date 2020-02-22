@@ -3715,7 +3715,7 @@ ul {
 }
 
 .highlight.active {
-  animation: highlight 1.7s 2.6s forwards;
+  animation: highlight 1.7s 2.4s forwards;
 }
 
 @keyframes highlight {
@@ -3723,41 +3723,74 @@ ul {
   to {background-position: -100% 0;}
 }
 
-.line-1{
-  /*position: relative;*/
-  /*top: 50%;*/
-  width: 100%;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  /*overflow: hidden;*/
-  /*transform: translateY(-50%);*/
+#typewriter {
+  /*font-size: 2em;*/
+  margin: 0;
+  font-family: "Courier";
+  visibility: hidden;
+  font-size: 14px;
+}
+#typewriter:after {
+  content: "|";
+  animation: blink 500ms linear infinite alternate;
 }
 
-.line-1{
-  position: relative;
-  top: 50%;
-  width: 24em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
 
-.anim-typewriter{
-  animation: typewriter 3s steps(44) 4.5s 1 normal both,
-  blinkTextCursor 700ms steps(44) infinite normal;
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 100%;}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(85, 85, 85, 0.75);}
-  to{border-right-color: transparent;}
+
+pre {
+  display:inline;
+  white-space: pre-line;
 }
+
+.smallthingsheader {
+  font-family: Courier;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  color: #E90214;
+  padding-bottom: 15px;
+  font-size: 18px
+}
+
+.smallthingstext-responsive-large {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 990px) {
+  .smallthingstext-responsive-large {
+    display: none; } }
+
+.smallthingstext-responsive-med {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 430px) {
+  .smallthingstext-responsive-med {
+    display: none; } }
+@media (min-width: 990px) {
+  .smallthingstext-responsive-med {
+    display: none; } }
+
+.smallthingstext-responsive-small {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 430px) {
+  .smallthingstext-responsive-small {
+    display: none; } }
