@@ -141,10 +141,10 @@ function showSlides(n){
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" dotActive", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    dots[slideIndex-1].className += " dotActive";
 }
 
 pause = () => {
@@ -155,3 +155,11 @@ resume = () =>{
     clearInterval(myTimer);
     myTimer = setInterval(function(){plusSlides(slideIndex)}, 4000);
 }
+
+var mySwiperAlbum = new Swiper ('.js_album-slider', {
+    nextButton: '.album-slider__button-next',
+    prevButton: '.album-slider__button-prev',
+    slidesPerView: 4,
+    spaceBetween: 10,
+    autoplay: 5000,
+});
