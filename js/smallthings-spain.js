@@ -147,10 +147,10 @@ function showSlides(n){
     if (slideIndex > 0 && slideIndex < 18) {
         dots[0].className += " dotActive";
     }
-    else if (slideIndex >= 18 && slideIndex < 25) {
+    else if (slideIndex >= 18 && slideIndex < 26) {
         dots[1].className += " dotActive";
     }
-    else if (slideIndex >= 25 && slideIndex < 35) {
+    else if (slideIndex >= 26 && slideIndex < 36) {
         dots[2].className += " dotActive";
     }
     else {

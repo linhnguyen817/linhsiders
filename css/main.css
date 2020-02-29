@@ -3757,7 +3757,7 @@ pre {
 }
 
 .smallthingsheader {
-  font-family: Courier;
+  font-family: Courier !important;
   font-weight: bold;
   letter-spacing: 0.04em;
   color: #E90214;
