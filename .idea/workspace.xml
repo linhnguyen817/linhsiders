@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ada1827-98c2-48d3-baea-40749543b00a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/smallthings-spain.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/smallthings-spain.html" afterDir="false" />
     </list>
@@ -77,7 +76,7 @@
         <counts>
           <entry key="css" value="3042" />
           <entry key="csv" value="5" />
-          <entry key="html" value="18499" />
+          <entry key="html" value="18533" />
           <entry key="js" value="989" />
           <entry key="scss" value="72" />
           <entry key="svg" value="91" />
@@ -86,7 +85,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3042" />
-          <entry key="HTML" value="18499" />
+          <entry key="HTML" value="18533" />
           <entry key="JavaScript" value="989" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="72" />
@@ -129,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="111" />
+            <state relative-caret-position="297">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -146,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/projects/smallthings-spain.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -922,15 +921,15 @@
       <workItem from="1582668199057" duration="454000" />
       <workItem from="1582668717878" duration="1918000" />
       <workItem from="1582938080995" duration="16484000" />
-      <workItem from="1582957982328" duration="3738000" />
+      <workItem from="1582957982328" duration="3974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186585000" />
+    <option name="totallyTimeSpent" value="186821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1551" height="957" extended-state="0" />
+    <frame x="62" y="64" width="1551" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49942195" weight="0.23660131" />
@@ -1254,8 +1253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="111" />
+        <state relative-caret-position="297">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1269,7 +1268,7 @@
     <entry file="file://$PROJECT_DIR$/projects/smallthings-spain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
