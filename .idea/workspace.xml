@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ada1827-98c2-48d3-baea-40749543b00a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherfunstuff/espanol.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherfunstuff/espanol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherfunstuff/fitness.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherfunstuff/fitness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherfunstuff/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/otherfunstuff/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/airthings.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/airthings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/microsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/microsoft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/smallthings-spain.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/smallthings-spain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/superdrobe.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/superdrobe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vravery.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vravery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/photos.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,7 +75,7 @@
         <counts>
           <entry key="css" value="3053" />
           <entry key="csv" value="5" />
-          <entry key="html" value="19405" />
+          <entry key="html" value="19408" />
           <entry key="js" value="992" />
           <entry key="scss" value="72" />
           <entry key="svg" value="91" />
@@ -93,7 +84,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3053" />
-          <entry key="HTML" value="19405" />
+          <entry key="HTML" value="19408" />
           <entry key="JavaScript" value="992" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="72" />
@@ -134,11 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/smallthings-spain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6461">
-              <caret line="445" column="64" selection-start-line="445" selection-start-column="64" selection-end-line="445" selection-end-column="64" />
+            <state relative-caret-position="521">
+              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -170,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/smallthings-spain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
+            <state relative-caret-position="91">
               <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
             </state>
           </provider>
@@ -185,11 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/photos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -281,9 +272,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banne</find>
-      <find>an o</find>
-      <find>ongoi</find>
       <find>small t</find>
       <find>p {</find>
       <find>body</find>
@@ -311,6 +299,9 @@
       <find>fall</find>
       <find>recep</find>
       <find>smallth</find>
+      <find>linhn@mit</find>
+      <find>mail</find>
+      <find>linhn@</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -346,12 +337,12 @@
         <option value="$PROJECT_DIR$/css/jquery.pagepilling.css" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/otherfunstuff/fitness.html" />
-        <option value="$PROJECT_DIR$/photos.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/smallthings-spain.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/projects/smallthings-spain.html" />
+        <option value="$PROJECT_DIR$/photos.html" />
       </list>
     </option>
   </component>
@@ -901,12 +892,12 @@
       <workItem from="1582957982328" duration="4384000" />
       <workItem from="1582963946542" duration="1383000" />
       <workItem from="1583007850619" duration="483000" />
-      <workItem from="1583008358655" duration="574000" />
+      <workItem from="1583008358655" duration="809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189671000" />
+    <option name="totallyTimeSpent" value="189906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="255" y="23" width="1353" height="957" extended-state="0" />
@@ -1165,20 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/smallthings-spain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/projects/smallthingsspain/smallthingsspain-comments-large.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1250,8 +1227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/smallthings-spain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6461">
-          <caret line="445" column="64" selection-start-line="445" selection-start-column="64" selection-end-line="445" selection-end-column="64" />
+        <state relative-caret-position="521">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1276,6 +1253,20 @@
             <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#a#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#b#0;n#p#1;n#div#0;n#div#0;n#a#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/smallthings-spain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
