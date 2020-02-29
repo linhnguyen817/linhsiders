@@ -144,7 +144,18 @@ function showSlides(n){
         dots[i].className = dots[i].className.replace(" dotActive", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " dotActive";
+    if (slideIndex > 0 && slideIndex < 18) {
+        dots[0].className += " dotActive";
+    }
+    else if (slideIndex >= 18 && slideIndex < 25) {
+        dots[1].className += " dotActive";
+    }
+    else if (slideIndex >= 25 && slideIndex < 35) {
+        dots[2].className += " dotActive";
+    }
+    else {
+        dots[3].className += " dotActive";
+    }
 }
 
 // pause = () => {
