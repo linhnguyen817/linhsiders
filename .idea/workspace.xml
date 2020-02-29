@@ -75,7 +75,7 @@
         <counts>
           <entry key="css" value="3053" />
           <entry key="csv" value="5" />
-          <entry key="html" value="19452" />
+          <entry key="html" value="19455" />
           <entry key="js" value="992" />
           <entry key="scss" value="72" />
           <entry key="svg" value="91" />
@@ -84,7 +84,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3053" />
-          <entry key="HTML" value="19452" />
+          <entry key="HTML" value="19455" />
           <entry key="JavaScript" value="992" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="72" />
@@ -906,12 +906,12 @@
       <workItem from="1582957982328" duration="4384000" />
       <workItem from="1582963946542" duration="1383000" />
       <workItem from="1583007850619" duration="483000" />
-      <workItem from="1583008358655" duration="1853000" />
+      <workItem from="1583008358655" duration="2113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190950000" />
+    <option name="totallyTimeSpent" value="191210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="327" y="247" width="1353" height="957" extended-state="0" />
