@@ -805,8 +805,8 @@ td, th {
   margin-right: 20px;
   background: #45dbee;
   overflow: hidden;
-  border-radius: 50px;
-  font-size: 15px;
+  border-radius: 10px;
+  font-size: 16px;
   font-weight: 500;
   display: inline-block;
   vertical-align: middle;
@@ -823,7 +823,7 @@ td, th {
   transition: all 0.3s ease 0s; }
   @media (max-width: 767px) {
     .primary-btn {
-      padding: 0 35px; } }
+      padding: 0 15px; } }
   .primary-btn:before {
     content: attr(data-text);
     position: absolute;
@@ -2336,10 +2336,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.3s ease 0s; }
     .single-work .middle h4 {
       font-size: 21px;
-      color: #fff; }
+      color: #222222; }
     .single-work .middle .cat {
       font-size: 15px;
-      color: #fff; }
+      color: #222222; }
   .single-work:hover .thumb .overlay-bg {
     opacity: .80; }
   .single-work:hover .middle {
@@ -3510,7 +3510,9 @@ ul {
     font-size: 14px;
 }
 
-/*ANIMATIONS*/
+/* ANIMATIONS */
+
+/* SUPERDROBE ANIMATIONS */
 .superdrobeTitleLine1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
@@ -3675,7 +3677,6 @@ ul {
   stroke-dashoffset: 1000;
   animation: dashicon3 4s 1.4s linear infinite forwards;
 }
-
 
 @keyframes dashicon1 {
   0% {
